@@ -20,7 +20,7 @@ function Button(_ref) {
     style: backgroundColor && {
       backgroundColor: backgroundColor
     }
-  }, label);
+  }, "[botao][", label, "]");
 }
 
 Button.propTypes = {
